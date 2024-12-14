@@ -1,8 +1,4 @@
-{% if site.wechat_qr %}
-  <!-- WeChat Modal -->
-
-  <script>
-    var wechatModal = document.getElementById('WeChatMod');
+var wechatModal = document.getElementById('WeChatMod');
     var wechatBtn = document.querySelectorAll('[id="WeChatBtn"]');
 
     for (var i = 0; i < wechatBtn.length; i++) {
@@ -16,5 +12,3 @@
         wechatModal.style.display = 'none';
       }
     };
-  </script>
-{% endif %}
